@@ -8,11 +8,18 @@ for (var i=1; i<=100; i++)
     document.write(" fixx");
     
     }
-    else
+
+     if (i % 5 == 0) 
     {
-        document.write(i);
+        document.write(" buzz"); 
+     
     }
+   
+if (i%3 != 0 && i%5 != 0) {
+    document.write(i);
     
+}
+
     document.write("<br />");
 
 }
